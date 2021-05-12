@@ -1,11 +1,11 @@
 # 总结一下面试题
-# Q：面向对象的语言特性？
+## Q：面向对象的语言特性？
 A：封装性、继承性、多态性。
 
-# Q：WebApi中常见的过滤器
+## Q：WebApi中常见的过滤器
 A：Authorization、Action、Exception
 
-# Q：手写一个冒泡排序
+## Q：手写一个冒泡排序
 A：
 ``` c#
 public static void BubbleSort()
@@ -42,7 +42,7 @@ private static void Exchange(ref int x, ref int y)
 
 ```
 
-# Q：手写一个递归
+## Q：手写一个递归
 A：
 ``` c#
 public class MainClass
@@ -56,4 +56,9 @@ public class MainClass
     }
 }
 ```
+
+## Q：overload 和 override 的区别
+A：
+ > overload：指在一个类中的方法与另一个方法同名，但是参数列表不同 <br>
+   override：当一个子类继承一个父类，子类中的方法名称、参数列表和父类完全相同 
 
