@@ -50,8 +50,7 @@ public class MainClass
     public static void Main() { Console.WriteLine(Foo(30)); }
     public static int Foo(int i)
     {
-        if (i <= 0) return 0;
-        else if (i > 0 && i <= 2) return 1;
+        if (i < 3) return 1;
         else return Foo(i - 1) + Foo(i - 2);
     }
 }
